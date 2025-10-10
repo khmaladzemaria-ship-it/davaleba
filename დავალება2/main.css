@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(250, 226, 186);
+    text-align: center;
+  
+}
+img{
+    width: 100px;
+    border-radius: 50%;
+}
+.border-bottom{
+   border-bottom: 2px solid rgb(50, 50, 192);
+
+}
+.conteiner{
+    max-width: 600px;
+    margin:auto;
+    text-align: left;
+    
+}
+h3{
+    color:brown;
+}
