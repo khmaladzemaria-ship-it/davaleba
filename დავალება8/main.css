@@ -1,0 +1,22 @@
+*{
+   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  padding:50px;
+}
+
+.spinner{
+  width: 80px;
+  height: 80px;
+ 
+  border: dotted 10px rgb(93, 161, 139);
+  border-radius: 100%;
+  animation: spiner 3s infinite linear;
+}
+@keyframes spiner{
+  to{
+    transform: rotate(360deg);
+  }
+}
