@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px ;
+    margin: 60px;
+}
+    
+.logo{
+    width: 100px;
+    
+}
+nav ul{
+    display: flex;
+    gap: 100px;
+}
+ul li{
+    list-style: none;
+    
+}
+.button{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    font-size:15px;
+    padding: 10px;
+}
+.info{
+    display: flex;
+}
+.sur{
+    display: flex;
+}
+
+.img{
+    
+    margin-right: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.conteiner{
+    max-width: 1000px;
+    margin:0 auto;
+   
+.text{
+    text-align: center;
+}
+.color{
+    color: #64CCC5
+}
+.cards{
+    max-width: 800px;
+    margin: auto;
+    padding:60px 0;
+}
+.row{
+    margin-left: 110px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:20px;
+}
+
+.card-dar{
+    background-color:#F4F4F4 ;
+    color:black;
+    width: 250px;
+    height: 280px;
+    border-radius:20px;
+    padding:25px;
+    gap:62px;
+}
+.card-dar:hover{
+    background-color: black;
+    color: white;
+    transition: 2s;
+
+}
+.ic{
+    font-size: 2rem;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+.ic:hover{
+    background-color: white;
+    color:black;
+    transition: 2s;
+
+}
+.text-section{
+    margin-top:200px;
+    
+}
+
+
+
+@media only screen and(max-widht:768px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+@media only screen and(max-widht:1024px) {
+    .row {
+        flex-direction: wrap;
+
+    }
+}
