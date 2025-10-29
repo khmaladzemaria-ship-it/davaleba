@@ -1,0 +1,64 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(225, 223, 220);
+}
+.conteiner{
+    max-width: 100%;
+    margin:0 auto;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+.card{
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    border:1px solid rgb(220, 214, 225);
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;   
+}
+section {
+    margin:60px 0;
+}
+.pencil{
+    color: rgb(86, 86, 240);
+}
+.com{
+    color: rgb(171, 104, 22);
+}
+.stat {
+    color: rgb(34, 215, 34);
+}
+.loc{
+    color: rgb(207, 30, 30);
+}
+i{
+    font-size:2rem;
+}
+
+@media only screen  and (max-width: 768px) {
+.row{
+    flex-direction: column;
+}
+    
+}
+
+@media only screen  and (max-width: 1024px){ 
+    .row{
+        flex-wrap: wrap;
+    
+    }
+    card{
+        width: 100%;
+    }
+
+}
