@@ -44,22 +44,10 @@ ul li{
     margin-right: 200px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .conteiner{
     max-width: 1000px;
     margin:0 auto;
+}
    
 .text{
     text-align: center;
@@ -79,7 +67,6 @@ ul li{
     flex-direction: row;
     gap:20px;
 }
-
 .card-dar{
     background-color:#F4F4F4 ;
     color:black;
