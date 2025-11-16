@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+:root{
+    --main-color: #ff9933;
+}
+body{
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+/* banner */
+.top-banner {
+    background-color: var(--main-color);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem;
+}
+/* header */
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1300px;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+.log{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+header img{
+    width: 40px;
+}
+header ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.607);
+    border-radius: 10px;
+}
+header ul li:hover{
+    background-color: #ebebeb;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    transition: 1s;
+}
+header ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+.button button{
+    background-color: rgba(255, 255, 255, 0.607);
+    color: inherit;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.button button:hover{
+    background-color: var(--main-color);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    transition: 1s;
+}
+.satauri{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    gap: 150px;
+}
+.satauri h1{
+    width: 600px;
+    height: 50px;
+}
+.satauri p{
+    width: 600px;
+    height: 20px;
+}
+/* სექციები */
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 60px;
+}
+.card{
+    width: 630px;
+    height: 270px;
+    background-color: white;
+    border-radius: 7px;
+    padding: 40px;
+}
+.card img{
+    margin-bottom: 20px;
+}
+.card p{
+    margin-top: 10px;
+}
+.call{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+}
+.sentence{
+    padding: 20px;
+}
+.call button{
+    margin: 30px;
+    background-color: orange;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border: none;
+    margin-top: 70px;
+    border-radius: 7px;
+}
+/* footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 120px;
+    height: 300px;
+    padding-top: 50px;
+}
+.pirveli img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.p ul li{
+    padding: 5px;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+.meore{
+    display: flex;
+    justify-content: space-around;
+}
+.hom{
+    margin-right: 150px;
+    text-align: left;
+    justify-content: start;
+}
+.hom ul li{
+    text-align: left;
+    list-style: none;
+    color: inherit;
+}
+.hom ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+.ab{
+    margin-right: 200px;
+    text-align: left;
+    justify-content: start;
+}
+.ab ul li{
+    text-align: left;
+    list-style: none;
+    color: inherit;
+}
+.ab ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+.buts{
+    display: flex;
+    margin-top: 10px;
+    gap: 15px;
+}
+.buts button{
+    background-color: rgba(222, 222, 222, 0.607);
+    height: 50px;
+    width: 50px;
+    border: 2px solid rgba(132, 132, 132, 0.607);
+    border-radius: 7px;
+    font-size: 30px;
+}
+.buts button:hover{
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    transition: 1s;
+}
+footer p{
+    text-align: center;
+}

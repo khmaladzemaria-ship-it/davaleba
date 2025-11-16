@@ -1,0 +1,818 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+:root{
+    --main-color: #ff9933;
+}
+body{
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+/* banner */
+.top-banner {
+    background-color: var(--main-color);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem;
+}
+/* header */
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1300px;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+.log{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+header img{
+    width: 40px;
+}
+header ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.607);
+    border-radius: 10px;
+}
+header ul li:hover{
+    background-color: #ebebeb;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    transition: 1s;
+}
+header ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+.button button{
+    background-color: rgba(255, 255, 255, 0.607);
+    color: inherit;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.button button:hover{
+    background-color: var(--main-color);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    transition: 1s;
+}
+/* პირველი სექცია */
+.row-unlock{
+    max-width: 1000px;
+    padding: 40px;
+    margin: 0 auto;
+    margin-left: 160px;
+    text-align: center;
+}
+.row-unlock img{
+    margin-right: 570px;
+    margin-bottom: -40px;
+}
+.unlock{
+    display: inline-block;
+    align-items: center;
+    margin: 20px;
+    width: 550px;
+}
+.unlock h2{
+    background-color: white;
+    border-radius: 5px;
+    font-size: 30px;
+    height: 67px;
+    padding-top: 8px;
+}
+.unlock h2 span{
+    color: var(--main-color);
+}
+.unlock h2 i{
+    font-size: 20px;
+    background-color: #fff4e5;
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+.unlock p{
+    font-size: 20px;
+    margin: 20px;
+}
+.unlock .p-size{
+    font-size: 10px;
+}
+.button-1 button{
+    background-color: rgba(255, 255, 255, 0.607);
+    color: inherit;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.button-1 button:hover{
+    background-color: var(--main-color);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    transition: 1s;
+}
+/* მეორე სექცია */
+.logos{
+    margin-top: 30px;
+    display: flex;
+    gap: 1px;
+    justify-content: space-between;
+}
+.logos .box{
+    align-items: center;
+    background-color: white;
+    width: 200px;
+    height: 90px;
+}
+.logos .box:hover{
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    transition: 1s;
+}
+.logos .box img{
+    padding-top: 25px;
+    padding-left: 40px;
+}
+/* მესამე სექცია */
+.image{
+    margin-top: 45px;
+}
+.image img{
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+/* მეოთხე სექცია */
+.mtavari{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 60px;
+}
+.mtavari button{
+    width: 130px;
+    height: 45px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.607);
+    color: inherit;
+    border: none;
+}
+.mtavari button:hover{
+    background-color: var(--main-color);
+    box-shadow: 0 8px 20px rgb(0, 0, 0);
+    transform: scale(1.05);
+    transition: 1s;
+}
+.text{
+    width: 900px;
+    height: 132px;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    width: 1250px;
+}
+.boxes .yuti{
+    width: 30%;
+    text-align: center;
+    background-color: white;
+    height: 300px;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.boxes .yuti:hover{
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    transition: 1s;
+}
+.boxes .yuti h1{
+    padding-left: 200px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 59px;
+    font-size: 40px;
+}
+.boxes .yuti h3, p{
+    height: 80px;
+}
+.boxes .yuti img{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: #f8f8f8;
+    border-radius: 7px;
+    margin-left: 280px;
+}
+.boxes .yuti img:hover{
+    box-shadow: 0 8px 20px rgb(210, 192, 171);
+    transform: scale(1.02);
+    transition: 1s;
+}
+/* მეხუთე სექცია */
+.cards{
+    width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0 auto;
+}
+.cards .card{
+    width: 600px;
+    background: #ffffff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+.cards .card img{
+    width: 520px;
+}
+.satauri{
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.but button{
+    width: 80px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.607);
+    color: inherit;
+    border: 2px solid rgb(175, 175, 175);
+    margin-bottom: 17px;
+}
+.descr{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.getit{
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    background-color: rgb(227, 227, 227);
+    color: inherit;
+    border: none;
+    margin-top: 20px;
+}
+.getit:hover{
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    transition: 1s;
+}
+/* მეექვსე სექცია */
+.comments{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.comment{
+    border-radius: 8px;
+    width: 600px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    height: 180px;
+    background-color: white;
+}
+.comment p{
+    margin: 20px 30px;
+}
+.human{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(222, 222, 222, 0.607);
+}
+.sarah{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.sarah img, h5{
+    margin-left: 30px;
+}
+.read{
+    width: 30%;
+    height: 40px;
+    border-radius: 8px;
+    background-color: rgb(227, 227, 227);
+    color: inherit;
+    border: none;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.read:hover{
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    transition: 1s;
+}
+/* მეშვიდე სექცია */
+.pricing-container{
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    gap: 40px;
+}
+.plan {
+    background-color: rgba(222, 222, 222, 0.607);
+    border-radius: 10px;
+    width: 590px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: 0.3s ease;
+    height: 760px;
+}
+.plan-header {
+    background-color: #fff9f0;
+    padding: 10px 0;
+    border-radius: 6px;
+    font-weight: 600;
+    color: #333;
+    margin: 20px;
+}
+.plan.pro .plan-header {
+    background-color: #fff5eb;
+}
+.price {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.price span {
+    font-size: 16px;
+    color: #777;
+}
+.features {
+    background-color: white;
+    text-align: left;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    border: #333;
+    padding-top: 10px;
+    height: 500px;
+}
+.features h4{
+    margin-left: 190px;
+}
+.features p {
+    border: 2px solid rgb(207, 207, 207);
+    font-size: 14px;
+    color: #333;
+    padding: 12px;
+    margin: 15px;
+    border-radius: 8px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.features p .fa-check{
+    margin-left: 10px;
+    padding: 3px;
+    height: 20px;
+    width: 20px;
+    background-color: #ffe7c6;
+    border-radius: 4px;
+    border: 2px solid rgba(222, 222, 222, 0.607);
+}
+.features p .fa-xmark{
+    border: 2px solid rgba(222, 222, 222, 0.607);
+}
+.btn {
+    background-color: #ff9f1a;
+    border: none;
+    color: white;
+    font-weight: 600;
+    height: 45px;
+    width: 550px;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #e68a00;
+}
+/* მერვე სექცია */
+.mshobeli{
+    margin-top: 60px;
+    display: flex;
+    padding: 50px;
+    gap: 80px;
+}
+.quest{
+    width: 400px;
+}
+.quest button{
+    width: 140px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid rgba(222, 222, 222, 0.607);
+    font-family: "Open Sans";
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+.quest button:hover{
+    background-color: rgba(132, 132, 132, 0.607);
+}
+.answer{
+    border-radius: 8px;
+    border: 2px solid rgba(132, 132, 132, 0.607);
+    padding: 40px;
+}
+.answer p{
+    margin-top: 40px;
+}
+.x{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+.x i{
+    background-color: #ffdcaa;
+    height: 40px;
+    width: 40px;
+    padding-top: 13px;
+    border-radius: 6px;
+}
+.diff{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    border-radius: 7px;
+    background-color: #efefef;
+    height: 80px;
+    padding: 20px;
+    align-items: center;
+}
+.diff button{
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    border: none;
+    background-color: white;
+}
+.diff button:hover{
+    box-shadow: 0 8px 20px black;
+    transform: scale(1.05);
+    transition: 1s;
+}
+.plus{
+    margin-top: 30px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 7px;
+    border: 2px solid rgba(222, 222, 222, 0.607);
+}
+.plus button{
+    background-color: #ffdcaa;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 7px;
+}
+.plus button:hover{
+    box-shadow: 0 8px 20px #d0a363;
+    transform: scale(1.05);
+    transition: 1s;
+}
+/* footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 120px;
+    height: 300px;
+    padding-top: 50px;
+}
+.pirveli img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.p ul li{
+    padding: 5px;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+.meore{
+    display: flex;
+    justify-content: space-around;
+}
+.hom{
+    margin-right: 150px;
+    text-align: left;
+    justify-content: start;
+}
+.hom ul li{
+    text-align: left;
+    list-style: none;
+    color: inherit;
+}
+.hom ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+.ab{
+    margin-right: 200px;
+    text-align: left;
+    justify-content: start;
+}
+.ab ul li{
+    text-align: left;
+    list-style: none;
+    color: inherit;
+}
+.ab ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+.buts{
+    display: flex;
+    margin-top: 10px;
+    gap: 15px;
+}
+.buts button{
+    background-color: rgba(222, 222, 222, 0.607);
+    height: 50px;
+    width: 50px;
+    border: 2px solid rgba(132, 132, 132, 0.607);
+    border-radius: 7px;
+    font-size: 30px;
+}
+.buts button:hover{
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    transition: 1s;
+}
+footer p{
+    text-align: center;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    
+    /* Header */
+    .logo {
+        width: 100%;
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    
+    .log {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+    
+    header ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+    }
+    
+    header ul li {
+        margin: 5px;
+        padding: 8px 12px;
+    }
+    
+    /* First Section */
+    .row-unlock {
+        max-width: 100%;
+        padding: 20px;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .row-unlock img {
+        margin-right: 0;
+        margin-bottom: -20px;
+        width: 80%;
+        max-width: 300px;
+    }
+    
+    .unlock {
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+    .unlock h2 {
+        font-size: 24px;
+        height: auto;
+        padding: 15px 10px;
+    }
+    
+    .unlock p {
+        font-size: 16px;
+        margin: 15px 0;
+    }
+    
+    /* Second Section */
+    .logos {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .logos .box {
+        width: 45%;
+        margin: 5px;
+    }
+    
+    /* Fourth Section */
+    .mtavari {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+    
+    .text {
+        width: 100%;
+        height: auto;
+    }
+    
+    .boxes {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .boxes .yuti {
+        width: 100%;
+        margin: 10px 0;
+        height: auto;
+    }
+    
+    .boxes .yuti h1 {
+        padding-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .boxes .yuti img {
+        margin-left: 0;
+        align-self: center;
+    }
+    
+    /* Fifth Section */
+    .cards {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .cards .card {
+        width: 100%;
+    }
+    
+    .cards .card img {
+        width: 100%;
+    }
+    
+    .satauri {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    /* Sixth Section */
+    .comments {
+        flex-direction: column;
+    }
+    
+    .comment {
+        width: 100%;
+        height: auto;
+    }
+    
+    .read {
+        width: 100%;
+        margin-top: 20px;
+        margin-right: 0;
+    }
+    
+    /* Seventh Section */
+    .pricing-container {
+        flex-direction: column;
+        padding: 15px;
+    }
+    
+    .plan {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    .features {
+        height: auto;
+    }
+    
+    .features h4 {
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .btn {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    
+    /* Eighth Section */
+    .mshobeli {
+        flex-direction: column;
+        padding: 20px;
+        gap: 30px;
+    }
+    
+    .quest {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .x, .diff, .plus {
+        flex-direction: column;
+        gap: 15px;
+        height: auto;
+        padding: 15px;
+    }
+    
+    /* Footer */
+    .footer {
+        flex-direction: column;
+        height: auto;
+        padding: 30px 20px;
+        text-align: center;
+    }
+    
+    .meore {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    
+    .hom, .ab {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    
+    .buts {
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
+
+/* Additional adjustments for very small screens */
+@media (max-width: 480px) {
+    .unlock h2 {
+        font-size: 20px;
+    }
+    
+    .unlock p {
+        font-size: 14px;
+    }
+    
+    .logos .box {
+        width: 90%;
+    }
+    
+    .boxes .yuti h1 {
+        font-size: 30px;
+    }
+    
+    .plan-header {
+        font-size: 14px;
+    }
+    
+    .price {
+        font-size: 36px;
+    }
+}
